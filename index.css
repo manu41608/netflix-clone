@@ -1,0 +1,128 @@
+#logo img{
+    height: 43px;
+    width: 122px;
+    padding-left:25px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: white;
+    font-family:'tilt neon';
+
+}
+ul{
+    padding-left: 73px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:sticky;
+    top: 0%;
+    background-color: rgba(72, 72, 72, 0.789);
+    width:100%;
+    z-index:20;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.navimage{
+   background-color: brown;
+   height:720px;
+   width: 100%;
+   background-image:url('background.jpg');
+   z-index: -1;
+   background-size: cover;
+}
+#background img{
+    padding:12px;
+    
+    width:540px;
+    height:170px;
+}
+#background{
+    padding: 12px;
+}
+span p {
+    width: 503px;
+    font-size:1.2vw;
+    font-weight:400;
+    color: white;
+    padding-left: 47px;
+    padding-top: 47px;
+    font-family:'Tilt Neon';
+  }
+button{
+    height: 31px;
+    width: 80px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 46px;
+    margin-top: 23px;
+    border: none;
+    font-size: large;
+    font-family: 'tilt neon';
+    font-weight: lighter;
+}
+button img{
+    height: 15px;
+    width: 15px;
+}
+.search img{
+    height: 24px;
+    width: 34px;
+}
+.search{
+   padding-left: 562px;
+}
+#user{
+    padding-left: 56px;
+}
+#user img{
+    height: 24px;
+    width: 34px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+    gap:3px;
+    padding-left:40px;
+    
+}
+.element{
+    padding-left:40px;
+    font-family: 'tilt neon';
+    font-weight: 400;
+}
+.box1{
+    height:192px;
+    width:341px;
+    
+}
+.allpack{
+    color: white;
+    position: relative;
+    z-index: -2;
+    bottom: 100px;
+    height: 257px;
+}
+body{
+    background-color:#1f1d22d9;
+}
+/* .na{
+    height: 869px;
+    width: 100%;
+    background-color: #1f1d22d9;
+    z-index: -2;
+    position: relative;
+} */
+.somepack{
+    color:white;
+    position: relative;
+    z-index:10;
+    bottom:135px;
+}
